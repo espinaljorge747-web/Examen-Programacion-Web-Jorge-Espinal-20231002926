@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Contacto</title>
+    </head>
+    <body>
+        <header><h1>Contacto</h1></header>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="Catalogo.html">Catalogo</a></li>
+                <li><a href="Cotizaciones.html">Cotizaciones</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <main>
+             <form method="POST", enctype="multipart/form-data">
+                <fieldset>
+                    <legend>Formulario Para Cotizaciones Formales</legend>
+                    <div>
+                        <label>Nombre Empresa</label>
+                        <input type="Text", id="Name", name="Name", placeholder="Ingrese el Nombre ">
+                    </div>
+                    <div>
+                        <label>RTN</label>
+                        <input type="Number", id="RTN", name="RTN", placeholder="Ingrese el RTN">
+                    </div>
+                    <div>
+                        <label>Correo Electronico</label>
+                        <input type="Text", id="", name="Mail", placeholder="Ingrese el Correo ">
+                    </div>
+                    <div>
+                        <label>Telefono Contacto</label>
+                        <input type="Text", id="Name", name="Name", placeholder="Ingrese el Nombre ">
+                    </div>
+                    <div>
+                        <label>Seleccione su Departamento</label>
+                        <select id="ciudad", name="ciudad" required>
+                            <option value="Producto1">Producto 1</option>
+                            <option value="Producto1">Producto 1</option>
+                            <option value="Producto1">Producto 1</option>
+                            <option value="Producto1">Producto 1</option>
+                            <option value="Producto1">Producto 1</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>Desea Aceptar los terminos</p>
+                        <label><input type="checkbox", name="Aceptar", value="aceptar">Aceptar</label>
+                        <label><input type="checkbox", name="Declinar", value="Declinar">Declinar</label>
+                    </div>
+                    <div>
+                        <button type="button">Enviar</button>
+                        <button type="button">Limpiar</button>
+                    </div>
+                </fieldset>
+             </form>
+        </main>
+    </body>
+</html>

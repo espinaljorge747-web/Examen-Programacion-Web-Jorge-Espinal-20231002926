@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Cotizaciones</title>
+    </head>
+    <body>
+        <header><h1>Realiza tus cotizaciones</h1></header>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="Catalogo.html">Catalogo</a></li>
+                <li><a href="Cotizaciones.html">Cotizaciones</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <main>
+            <form method="POST", enctype="multipart/form-data">
+                <fieldset>
+                    <legend>Ingresa los datos de tu compra aqui</legend>
+                    <div>
+                        <label>Cantidad Unidades</label>
+                        <input type="number", id="number", name="number", placeholder="Ingrese la cantidad">
+                    </div>
+                    <div>
+                        <label>Seleccione su producto</label>
+                        <select id="producto", name="producto" required>
+                            <option value="Producto1">Producto 1</option>
+                            <option value="Producto1">Producto 1</option>
+                            <option value="Producto1">Producto 1</option>
+                            <option value="Producto1">Producto 1</option>
+                            <option value="Producto1">Producto 1</option>
+                            <option value="Producto1">Producto 1</option>
+                            <option value="Producto1">Producto 1</option>
+                            <option value="Producto1">Producto 1</option>
+                            <option value="Producto1">Producto 1</option>
+                            <option value="Producto1">Producto 1</option>
+                            <option value="Producto1">Producto 1</option>
+                            <option value="Producto1">Producto 1</option>
+                            <option value="Producto1">Producto 1</option>
+                            <option value="Producto1">Producto 1</option>
+                            <option value="Producto1">Producto 1</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Seleccione su ciudad</label>
+                        <select id="ciudad", name="ciudad" required>
+                            <option value="Producto1">Producto 1</option>
+                            <option value="Producto1">Producto 1</option>
+                            <option value="Producto1">Producto 1</option>
+                            <option value="Producto1">Producto 1</option>
+                            <option value="Producto1">Producto 1</option>
+                        </select>
+                    </div>
+                </fieldset>
+            </form>
+            <section>
+                <h3>Regla Comercial de la Empresa</h3>
+                <p>Descuento Comercial del 8% automatico en ordenes de 5 o mas unidades</p>
+            </section>
+            <section>
+                <button type="button">Calcular Presupuesto</button>
+            </section>
+            <section>
+                <fieldset>
+                    <h2>El resultado de la cotizacion es: </h2>
+                </fieldset>
+            </section>
+        </main>
+    </body>
+</html>
