@@ -21,34 +21,34 @@
                     <legend>Formulario Para Cotizaciones Formales</legend>
                     <div>
                         <label>Nombre Empresa</label>
-                        <input type="Text", id="Name", name="Name", placeholder="Ingrese el Nombre ">
+                        <input type="Text", id="Name", name="Name", placeholder="Ingrese el Nombre ", minlength="6", maxlength="50">
                     </div>
                     <div>
                         <label>RTN</label>
-                        <input type="Number", id="RTN", name="RTN", placeholder="Ingrese el RTN">
+                        <input type="Number", id="RTN", name="RTN", placeholder="Ingrese el RTN",required pattern="[0-9]{4}-[0-9]{4}-[0-9]{6}">
                     </div>
                     <div>
                         <label>Correo Electronico</label>
-                        <input type="Text", id="", name="Mail", placeholder="Ingrese el Correo ">
+                        <input type="Text", id="", name="Mail", placeholder="Ingrese el Correo">
                     </div>
                     <div>
                         <label>Telefono Contacto</label>
                         <input type="Text", id="Name", name="Name", placeholder="Ingrese el Nombre ">
                     </div>
                     <div>
-                        <label>Seleccione su Departamento</label>
-                        <select id="ciudad", name="ciudad" required>
-                            <option value="Producto1">Producto 1</option>
-                            <option value="Producto1">Producto 1</option>
-                            <option value="Producto1">Producto 1</option>
-                            <option value="Producto1">Producto 1</option>
-                            <option value="Producto1">Producto 1</option>
+                        <label>Seleccione su Departamento de entrega</label>
+                        <select id="Departamento", name="Departamento" required>
+                            <option value="Francisco Morazan">Francisco Morazan</option>
+                            <option value="Cortes">Cortes</option>
+                            <option value="Comayagua">Comayagua</option>
+                            <option value="Choluteca">Choluteca</option>
+                            <option value="Olancho">Olancho</option>
                         </select>
                     </div>
                     <div>
                         <p>Desea Aceptar los terminos</p>
-                        <label><input type="checkbox", name="Aceptar", value="aceptar">Aceptar</label>
-                        <label><input type="checkbox", name="Declinar", value="Declinar">Declinar</label>
+                        <label><input type="radio", name="Decision", value="aceptar">Aceptar</label>
+                        <label><input type="radio", name="Decision", value="Declinar">Declinar</label>
                     </div>
                     <div>
                         <button type="button">Enviar</button>
