@@ -4,329 +4,343 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title>Catalogo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     </head>
     <body>
-        <header><h1>Catalogo</h1></header>
+        <header class="bg-light border-bottom text-center py-3">
+            <h1 class="h2 fw-bold mb-0">Catalogo</h1>
+        </header>
         <nav>
-            <ul>
-                <li><a href="Index.html">Inicio</a></li>
-                <li><a href="Catalogo.html">Catalogo</a></li>
-                <li><a href="Cotizaciones.html">Cotizaciones</a></li>
-                <li><a href="Contacto.html">Contacto</a></li>
+            <ul class="navbar-nav ms-auto align-items-lg-left"s>
+                <li class="nav-item"><a class="nav-link px-3" href="Index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link px-3" href="Catalogo.html">Catalogo</a></li>
+                <li class="nav-item"><a class="nav-link px-3" href="Cotizaciones.html">Cotizaciones</a></li>
+                <li class="nav-item"><a class="nav-link px-3" href="Contacto.html">Contacto</a></li>
             </ul>
         </nav>
-        <main>
-            <section>
-                <article>
-                    <h3>Pad-Mounted Monofásico 25 kVA (13.8 kV)</h3>
-                    <figure>
-                        <img src="Img/transformador.jpeg", alt="transformador", width="200px", height="200px">
+        
+        <main class="container py-4">
+            <section class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5">
+                <article class="card h-100 shadow-sm border-0 rounded-4 p-3">
+                    <h3 class="h5 fw-bold">Pad-Mounted Monofásico 25 kVA (13.8 kV)</h3>
+                    <figure class="text-center">
+                        <img src="Img/transformador.jpeg" alt="transformador" width="200px" height="200px" class="img-fluid rounded-3 mb-2" style="height:200px; object-fit:contain;">
                     </figure>
-                    <p>Compra nuestro Pad-Mounted Monofásico</p>
-                    <ul>
-                        <li><Strong>Categoria:</Strong>Residencial Subterráneo </li>
-                        <li><Strong>Precio:</Strong>85,000.00lps</li>
+                    <p class="text-muted small">Compra nuestro Pad-Mounted Monofásico</p>
+                    <ul class="list-unstyled small mb-2">
+                        <li class="mb-1"><Strong>Categoria:</Strong>Residencial Subterráneo </li>
+                        <li class="fs-5 text-success fw-bold"><Strong>Precio:</Strong>85,000.00lps</li>
                     </ul>
-                    <p><strong>Detalles Tecnicos</strong></p>
-                    <ul>
-                        <li><Strong>Tension Nominal:</Strong>13,800 V / 120-240 V</li>
-                        <li><Strong>Capacidad Potencia:</Strong>25 kVA</li>
-                        <li><Strong>Garantia:</Strong>1 a 2 Años</li>
+                    <p class="mb-1"><strong>Detalles Tecnicos</strong></p>
+                    <ul class="list-unstyled small mb-0">
+                        <li class="mb-1"><Strong>Tension Nominal:</Strong>13,800 V / 120-240 V</li>
+                        <li class="mb-1"><Strong>Capacidad Potencia:</Strong>25 kVA</li>
+                        <li class="mb-1"><Strong>Garantia:</Strong>1 a 2 Años</li>
                     </ul>
                 </article>
-                <article>
-                    <h3>Panel Solar Monocristalino Nenotech 720W</h3>
-                    <figure>
-                        <img src="Img/panel solar.webp", alt="Panel Solar Alta Potencia", width="300px", height="250px">
+                <article class="card h-100 shadow-sm border-0 rounded-4 p-3">
+                    <h3 class="h5 fw-bold">Panel Solar Monocristalino Nenotech 720W</h3>
+                    <figure class="text-center">
+                        <img src="Img/panel solar.webp" alt="Panel Solar Alta Potencia" width="300px" height="250px" class="img-fluid rounded-3 mb-2" style="height:200px; object-fit:contain;">
                     </figure>
-                    <p>Compra nuestro Panel Solar Monocristalino</p>
-                    <ul>
-                        <li><Strong>Categoria:</Strong> Generacion Solar</li>
-                        <li><Strong>Precio:</Strong>5,695.00lps</li>
+                    <p class="text-muted small">Compra nuestro Panel Solar Monocristalino</p>
+                    <ul class="list-unstyled small mb-2">
+                        <li class="mb-1"><Strong>Categoria:</Strong> Generacion Solar</li>
+                        <li class="fs-5 text-success fw-bold"><Strong>Precio:</Strong>5,695.00lps</li>
                     </ul>
-                    <p><strong>Detalles Tecnicos</strong></p>
-                    <ul>
-                        <li><Strong>Tension Nominal:</Strong>41.5V</li>
-                        <li><Strong>Capacidad Potencia:</Strong>720W</li>
-                        <li><Strong>Garantia:</Strong>12 Años</li>
+                    <p class="mb-1"><strong>Detalles Tecnicos</strong></p>
+                    <ul class="list-unstyled small mb-0">
+                        <li class="mb-1"><Strong>Tension Nominal:</Strong>41.5V</li>
+                        <li class="mb-1"><Strong>Capacidad Potencia:</Strong>720W</li>
+                        <li class="mb-1"><Strong>Garantia:</Strong>12 Años</li>
                     </ul>
                 </article>
-               <article>
-                    <h3>Panel Solar Monocristalino Nenotech 350W</h3>
-                    <figure>
-                        <img src="Img/panel solar.webp", alt="Panel Solar Baja Potencia ", width="300px", height="250px">
+               <article class="card h-100 shadow-sm border-0 rounded-4 p-3">
+                    <h3 class="h5 fw-bold">Panel Solar Monocristalino Nenotech 350W</h3>
+                    <figure class="text-center" >
+                         <img src="Img/panel solar.webp" alt="Panel Solar Baja Potencia" width="300px" height="250px" class="img-fluid rounded-3 mb-2" style="height:200px; object-fit:contain;">
                     </figure>
-                    <p>Compra nuestro Panel Solar Monocristalino</p>
-                    <ul>
-                        <li><Strong>Categoria:</Strong> Generacion Solar</li>
-                        <li><Strong>Precio:</Strong>2990lps</li>
+                    <p class="text-muted small">Compra nuestro Panel Solar Monocristalino</p>
+                    <ul class="list-unstyled small mb-2">
+                        <li class="mb-1"><Strong>Categoria:</Strong> Generacion Solar</li>
+                        <li class="fs-5 text-success fw-bold"><Strong>Precio:</Strong>2990lps</li>
                     </ul>
-                    <p><strong>Detalles Tecnicos</strong></p>
-                    <ul>
-                        <li><Strong>Tension Nominal:</Strong>38V</li>
-                        <li><Strong>Capacidad Potencia:</Strong>350W</li>
-                        <li><Strong>Garantia:</Strong>10 Años</li>
+                    <p class="mb-1"><strong>Detalles Tecnicos</strong></p>
+                    <ul class="list-unstyled small mb-0">
+                        <li class="mb-1"><Strong>Tension Nominal:</Strong>38V</li>
+                        <li class="mb-1"><Strong>Capacidad Potencia:</Strong>350W</li>
+                        <li class="mb-1"><Strong>Garantia:</Strong>10 Años</li>
                     </ul>
                 </article>
-                <article>
-                    <h3>Panel solar portatil Plegable 100w</h3>
-                    <figure>
-                        <img src="Img/solar portatil.jpg", alt="Solar Portatil", width="300px", height="300px">
+                <article class="card h-100 shadow-sm border-0 rounded-4 p-3">
+                    <h3 class="h5 fw-bold">Panel solar portatil Plegable 100w</h3>
+                    <figure  class="text-center">
+                        <img src="Img/solar portatil.jpg" alt="Solar Portatil" width="300px" height="300px" class="img-fluid rounded-3 mb-2" style="height:200px; object-fit:contain;">
                     </figure>
-                    <p>Compra nuestro Panel Solar portatil Plegable 100w</p>
-                    <ul>
-                        <li><Strong>Categoria:</Strong> Generacion Solar</li>
-                        <li><Strong>Precio:</Strong>2,210.00L</li>
+                    <p class="text-muted small">Compra nuestro Panel Solar portatil Plegable 100w</p>
+                    <ul class="list-unstyled small mb-2">
+                        <li class="mb-1"><Strong>Categoria:</Strong> Generacion Solar</li>
+                        <li class="fs-5 text-success fw-bold"><Strong>Precio:</Strong>2,210.00L</li>
                     </ul>
-                    <p><strong>Detalles Tecnicos</strong></p>
-                    <ul>
-                        <li><Strong>Tension Nominal:</Strong>18 V</li>
-                        <li><Strong>Capacidad Potencia:</Strong>100 W</li>
-                        <li><Strong>Garantia:</Strong>1 a 2 años</li>
+                    <p class="mb-1"><strong>Detalles Tecnicos</strong></p>
+                    <ul class="list-unstyled small mb-0">
+                        <li class="mb-1"><Strong>Tension Nominal:</Strong>18 V</li>
+                        <li class="mb-1"><Strong>Capacidad Potencia:</Strong>100 W</li>
+                        <li class="mb-1"><Strong>Garantia:</Strong>1 a 2 años</li>
                     </ul>
                 </article>
-                <article>
-                    <h3>Inversor Híbrido Growatt SPH10000TL 10kW</h3>
-                    <figure>
-                        <img src="Img/inversor hibrido.webp", alt="Inversor hibrido", width="200px", height="200px">
+                <article class="card h-100 shadow-sm border-0 rounded-4 p-3">
+                    <h3 class="h5 fw-bold">Inversor Híbrido Growatt SPH10000TL 10kW</h3>
+                    <figure class="text-center">
+                        <img src="Img/inversor hibrido.webp" alt="Inversor hibrido" width="200px" height="200px" class="img-fluid rounded-3 mb-2" style="height:200px; object-fit:contain;">
                     </figure>
-                    <p>Compra nuestro Inversor Híbrido</p>
-                    <ul>
-                        <li><Strong>Categoria:</Strong>Inversores y Convertidores</li>
-                        <li><Strong>Precio:</Strong>129,882.00 lps</li>
+                    <p class="text-muted small">Compra nuestro Inversor Híbrido</p>
+                    <ul class="list-unstyled small mb-2">
+                        <li class="mb-1"><Strong>Categoria:</Strong>Inversores y Convertidores</li>
+                        <li class="fs-5 text-success fw-bold"><Strong>Precio:</Strong>129,882.00 lps</li>
                     </ul>
-                    <p><strong>Detalles Tecnicos</strong></p>
-                    <ul>
-                        <li><Strong>Tension Nominal:</Strong>120V / 220V (AC) / 48V (DC)</li>
-                        <li><Strong>Capacidad Potencia:</Strong>10,000 W (10 kW)</li>
-                        <li><Strong>Garantia:</Strong>5 años</li>
+                    <p class="mb-1"><strong>Detalles Tecnicos</strong></p>
+                    <ul class="list-unstyled small mb-0">
+                        <li class="mb-1"><Strong>Tension Nominal:</Strong>120V / 220V (AC) / 48V (DC)</li>
+                        <li class="mb-1"><Strong>Capacidad Potencia:</Strong>10,000 W (10 kW)</li>
+                        <li class="mb-1"><Strong>Garantia:</Strong>5 años</li>
                     </ul>
                 </article>
-                <article>
-                    <h3>Inversor Híbrido CDP XVERTER 6000W</h3>
-                    <figure>
-                        <img src="Img/inversor xverter.jpg", alt="inversor CDP", width="200px", height="200px">
+                <article class="card h-100 shadow-sm border-0 rounded-4 p-3">
+                    <h3 class="h5 fw-bold">Inversor Híbrido CDP XVERTER 6000W</h3>
+                    <figure class="text-center">
+                        <img src="Img/inversor xverter.jpg" alt="inversor CDP" width="200px" height="200px" class="img-fluid rounded-3 mb-2" style="height:200px; object-fit:contain;">
                     </figure>
-                    <p>Compra nuestro Inversor Híbrido CDP XVERTER</p>
-                    <ul>
-                        <li><Strong>Categoria:</Strong>Inversores y Convertidores</li>
-                        <li><Strong>Precio:</Strong>61,345.00lps</li>
+                    <p class="text-muted small">Compra nuestro Inversor Híbrido CDP XVERTER</p>
+                    <ul class="list-unstyled small mb-2">
+                        <li class="mb-1"><Strong>Categoria:</Strong>Inversores y Convertidores</li>
+                        <li class="fs-5 text-success fw-bold"><Strong>Precio:</Strong>61,345.00lps</li>
                     </ul>
-                    <p><strong>Detalles Tecnicos</strong></p>
-                    <ul>
-                        <li><Strong>Tension Nominal:</Strong>120V (AC) / 48V (DC)</li>
-                        <li><Strong>Capacidad Potencia:</Strong>6,000 W (6 kW)</li>
-                        <li><Strong>Garantia</Strong>1 año</li>
+                    <p class="mb-1"><strong>Detalles Tecnicos</strong></p>
+                    <ul class="list-unstyled small mb-0">
+                        <li class="mb-1"><Strong>Tension Nominal:</Strong>120V (AC) / 48V (DC)</li>
+                        <li class="mb-1"><Strong>Capacidad Potencia:</Strong>6,000 W (6 kW)</li>
+                        <li class="mb-1"><Strong>Garantia</Strong>1 año</li>
                     </ul>
                 </article>
-                <article>
-                    <h3>Inversor On-Grid Growatt MIN 3000TL-X</h3>
-                    <figure>
-                        <img src="Img/on grid.webp", alt="Inversor On-Grid", width="300px", height="350px">
+                <article class="card h-100 shadow-sm border-0 rounded-4 p-3">
+                    <h3 class="h5 fw-bold">Inversor On-Grid Growatt MIN 3000TL-X</h3>
+                    <figure class="text-center">
+                        <img src="Img/on grid.webp" alt="Inversor On-Grid" width="300px" height="350px" class="img-fluid rounded-3 mb-2" style="height:200px; object-fit:contain;">
                     </figure>
-                    <p>Compra nuestro Inversor On-Grid Growatt </p>
-                    <ul>
-                        <li><Strong>Categoria:</Strong> Inversores y Convertidores</li>
-                        <li><Strong>Precio:</Strong>15,885.00lps</li>
+                    <p class="text-muted small">Compra nuestro Inversor On-Grid Growatt </p>
+                    <ul class="list-unstyled small mb-2">
+                        <li class="mb-1"><Strong>Categoria:</Strong> Inversores y Convertidores</li>
+                        <li class="fs-5 text-success fw-bold"><Strong>Precio:</Strong>15,885.00lps</li>
                     </ul>
-                    <p><strong>Detalles Tecnicos</strong></p>
-                    <ul>
-                        <li><Strong>Tension Nominal:</Strong>230V (AC) Monofásico</li>
-                        <li><Strong>Capacidad Potencia:</Strong>3,000 W (3 kW)</li>
-                        <li><Strong>Garantia:</Strong>5 años</li>
+                    <p class="mb-1"><strong>Detalles Tecnicos</strong></p>
+                    <ul class="list-unstyled small mb-0">
+                        <li class="mb-1"><Strong>Tension Nominal:</Strong>230V (AC) Monofásico</li>
+                        <li class="mb-1"><Strong>Capacidad Potencia:</Strong>3,000 W (3 kW)</li>
+                        <li class="mb-1"><Strong>Garantia:</Strong>5 años</li>
                     </ul>
                 </article>
-                <article>
-                    <h3>Inversor Solar Portátil CDP 700W</h3>
-                    <figure>
-                        <img src="Img/inversor portatil.jpg", alt="Inversor Solar Portatil", width="200px", height="200px">
+                <article class="card h-100 shadow-sm border-0 rounded-4 p-3">
+                    <h3 class="h5 fw-bold">Inversor Solar Portátil CDP 700W</h3>
+                    <figure class="text-center">
+                        <img src="Img/inversor portatil.jpg" alt="Inversor Solar Portatil" width="200px" height="200px" class="img-fluid rounded-3 mb-2" style="height:200px; object-fit:contain;">
                     </figure>
-                    <p>Compra nuestro Inversor Solar Portátil </p>
-                    <ul>
-                        <li><Strong>Categoria:</Strong> Inversores y Convertidores</li>
-                        <li><Strong>Precio:</Strong>5,245.00 lps</li>
+                    <p class="text-muted small">Compra nuestro Inversor Solar Portátil </p>
+                    <ul class="list-unstyled small mb-2">
+                        <li class="mb-1"><Strong>Categoria:</Strong> Inversores y Convertidores</li>
+                        <li class="fs-5 text-success fw-bold"><Strong>Precio:</Strong>5,245.00 lps</li>
                     </ul>
-                    <p><strong>Detalles Tecnicos</strong></p>
-                    <ul>
-                        <li><Strong>Tension Nominal:</Strong>120V (AC) / 12V (DC)</li>
-                        <li><Strong>Capacidad Potencia:</Strong>700 W (1000 VA)</li>
-                        <li><Strong>Garantia:</Strong>1 año</li>
+                    <p class="mb-1"><strong>Detalles Tecnicos</strong></p>
+                    <ul class="list-unstyled small mb-0">
+                        <li class="mb-1"><Strong>Tension Nominal:</Strong>120V (AC) / 12V (DC)</li>
+                        <li class="mb-1"><Strong>Capacidad Potencia:</Strong>700 W (1000 VA)</li>
+                        <li class="mb-1"><Strong>Garantia:</Strong>1 año</li>
                     </ul>
                 </article>
-                <article>
-                    <h3>Controlador de Carga Solar MPPT 60A</h3>
-                    <figure>
-                        <img src="Img/controlador mppt.webp", alt="Cotrolador de Carga Solar", width="200px", height="200px">
+                <article class="card h-100 shadow-sm border-0 rounded-4 p-3">
+                    <h3 class="h5 fw-bold">Controlador de Carga Solar MPPT 60A</h3>
+                    <figure class="text-center">
+                        <img src="Img/controlador mppt.webp" alt="Cotrolador de Carga Solar" width="200px" height="200px" class="img-fluid rounded-3 mb-2" style="height:200px; object-fit:contain;">
                     </figure>
-                    <p>Compra nuestro Controlador de Carga Solar </p>
-                    <ul>
-                        <li><Strong>Categoria:</Strong> Reguladores y Control</li>
-                        <li><Strong>Precio:</Strong>2,060.00lps</li>
+                    <p class="text-muted small">Compra nuestro Controlador de Carga Solar </p>
+                    <ul class="list-unstyled small mb-2">
+                        <li class="mb-1"><Strong>Categoria:</Strong> Reguladores y Control</li>
+                        <li class="fs-5 text-success fw-bold"><Strong>Precio:</Strong>2,060.00lps</li>
                     </ul>
-                    <p><strong>Detalles Tecnicos</strong></p>
-                    <ul>
-                        <li><Strong>Tension Nominal:</Strong>12V / 24V (Auto)</li>
-                        <li><Strong>Capacidad Potencia:</Strong>60 A (Capacidad de carga)</li>
-                        <li><Strong>Garantia:</Strong>1 año</li>
+                    <p class="mb-1"><strong>Detalles Tecnicos</strong></p>
+                    <ul class="list-unstyled small mb-0">
+                        <li class="mb-1"><Strong>Tension Nominal:</Strong>12V / 24V (Auto)</li>
+                        <li class="mb-1"><Strong>Capacidad Potencia:</Strong>60 A (Capacidad de carga)</li>
+                        <li class="mb-1"><Strong>Garantia:</Strong>1 año</li>
                     </ul>
                 </article>
-                <article>
-                    <h3>Controlador de Carga Solar PWM 20A</h3>
-                    <figure>
-                        <img src="Img/controlador pwm.jpg", alt="Cotrolador de Carga Solar PWM", width="200px", height="200px">
+                <article class="card h-100 shadow-sm border-0 rounded-4 p-3">
+                    <h3 class="h5 fw-bold">Controlador de Carga Solar PWM 20A</h3>
+                    <figure class="text-center">
+                        <img src="Img/controlador pwm.jpg" alt="Cotrolador de Carga Solar PWM" width="200px" height="200px" class="img-fluid rounded-3 mb-2" style="height:200px; object-fit:contain;">
                     </figure>
-                    <p>Compra nuestro Controlador de Carga Solar PWM 20A</p>
-                    <ul>
-                        <li><Strong>Categoria:</Strong>Reguladores y Control</li>
-                        <li><Strong>Precio:</Strong>1,120.00</li>
+                    <p class="text-muted small">Compra nuestro Controlador de Carga Solar PWM 20A</p>
+                    <ul class="list-unstyled small mb-2">
+                        <li class="mb-1"><Strong>Categoria:</Strong>Reguladores y Control</li>
+                        <li class="fs-5 text-success fw-bold"><Strong>Precio:</Strong>1,120.00</li>
                     </ul>
-                    <p><strong>Detalles Tecnicos</strong></p>
-                    <ul>
-                        <li><Strong>Tension Nominal:</Strong>12V / 24V (Auto)</li>
-                        <li><Strong>Capacidad Potencia:</Strong>20 A</li>
-                        <li><Strong>Garantia</Strong>1 año</li>
+                    <p class="mb-1"><strong>Detalles Tecnicos</strong></p>
+                    <ul class="list-unstyled small mb-0">
+                        <li class="mb-1"><Strong>Tension Nominal:</Strong>12V / 24V (Auto)</li>
+                        <li class="mb-1"><Strong>Capacidad Potencia:</Strong>20 A</li>
+                        <li class="mb-1"><Strong>Garantia</Strong>1 año</li>
                     </ul>
                 </article>
-                <article>
-                    <h3>Autotransformador Split Phase Growatt 11.4K</h3>
-                    <figure>
-                        <img src="Img/autotransformador.jpg", alt="Autotransformador Split ", width="200px", height="200px">
+                <article class="card h-100 shadow-sm border-0 rounded-4 p-3">
+                    <h3 class="h5 fw-bold">Autotransformador Split Phase Growatt 11.4K</h3>
+                    <figure class="text-center">
+                        <img src="Img/autotransformador.jpg" alt="Autotransformador Split" width="200px" height="200px" class="img-fluid rounded-3 mb-2" style="height:200px; object-fit:contain;">
                     </figure>
-                    <p>Compra nuestro Autotransformador Split Phase</p>
-                    <ul>
-                        <li><Strong>Categoria:</Strong>Transformadores y Red</li>
-                        <li><Strong>Precio:</Strong>20,245.00lps</li>
+                    <p class="text-muted small">Compra nuestro Autotransformador Split Phase</p>
+                    <ul class="list-unstyled small mb-2">
+                        <li class="mb-1"><Strong>Categoria:</Strong>Transformadores y Red</li>
+                        <li class="fs-5 text-success fw-bold"><Strong>Precio:</Strong>20,245.00lps</li>
                     </ul>
-                    <p><strong>Detalles Tecnicos</strong></p>
-                    <ul>
-                        <li><Strong>Tension Nominal:</Strong>240V / 208V a 120V</li>
-                        <li><Strong>Capacidad Potencia:</Strong>11.4 kVA (11,400 VA)</li>
-                        <li><Strong>Garantia:</Strong>1 año</li>
+                    <p class="mb-1"><strong>Detalles Tecnicos</strong></p>
+                    <ul class="list-unstyled small mb-0">
+                        <li class="mb-1"><Strong>Tension Nominal:</Strong>240V / 208V a 120V</li>
+                        <li class="mb-1"><Strong>Capacidad Potencia:</Strong>11.4 kVA (11,400 VA)</li>
+                        <li class="mb-1"><Strong>Garantia:</Strong>1 año</li>
                     </ul>
                 </article>
-                <article>
-                    <h3>Conectores Solares MC4 (Par 1-2)</h3>
-                    <figure>
-                        <img src="Img/conector solar.jpg", alt="Conectores Solares MC4 ", width="200px", height="200px">
+                <article class="card h-100 shadow-sm border-0 rounded-4 p-3">
+                    <h3 class="h5 fw-bold">Conectores Solares MC4 (Par 1-2)</h3>
+                    <figure class="text-center">
+                        <img src="Img/conector solar.jpg" alt="Conectores Solares MC4" width="200px" height="200px" class="img-fluid rounded-3 mb-2" style="height:200px; object-fit:contain;">
                     </figure>
-                    <p>Compra nuestros Conectores Solares MC4</p>
-                    <ul>
-                        <li><Strong>Categoria:</Strong> Cableado y Conectores</li>
-                        <li><Strong>Precio:</Strong>473.00lps</li>
+                    <p class="text-muted small">Compra nuestros Conectores Solares MC4</p>
+                    <ul class="list-unstyled small mb-2">
+                        <li class="mb-1"><Strong>Categoria:</Strong> Cableado y Conectores</li>
+                        <li class="fs-5 text-success fw-bold"><Strong>Precio:</Strong>473.00lps</li>
                     </ul>
-                    <p><strong>Detalles Tecnicos</strong></p>
-                    <ul>
-                        <li><Strong>Tension Nominal:</Strong>Hasta 1000 V DC</li>
-                        <li><Strong>Capacidad Potencia:</Strong>30 A</li>
-                        <li><Strong>Garantia:</Strong>3 meses</li>
+                    <p class="mb-1"><strong>Detalles Tecnicos</strong></p>
+                    <ul class="list-unstyled small mb-0">
+                        <li class="mb-1"><Strong>Tension Nominal:</Strong>Hasta 1000 V DC</li>
+                        <li class="mb-1"><Strong>Capacidad Potencia:</Strong>30 A</li>
+                        <li class="mb-1"><Strong>Garantia:</Strong>3 meses</li>
                     </ul>
                 </article>
-                <article>
-                    <h3>Riel de Aluminio para Montaje Solar 4.2m</h3>
-                    <figure>
-                        <img src="Img/riel solar.jpeg", alt="Riel de Aluminio", width="200px", height="200px">
+                <article class="card h-100 shadow-sm border-0 rounded-4 p-3">
+                    <h3 class="h5 fw-bold">Riel de Aluminio para Montaje Solar 4.2m</h3>
+                    <figure class="text-center">
+                        <img src="Img/riel solar.jpeg" alt="Riel de Aluminio" width="200px" height="200px" class="img-fluid rounded-3 mb-2" style="height:200px; object-fit:contain;">
                     </figure>
-                    <p>Compra nuestro Riel de Aluminio para Montaje Solar</p>
-                    <ul>
-                        <li><Strong>Categoria:</Strong> Estructuras y Montaje</li>
-                        <li><Strong>Precio:</Strong>620.00 lps</li>
+                    <p class="text-muted small">Compra nuestro Riel de Aluminio para Montaje Solar</p>
+                    <ul class="list-unstyled small mb-2">
+                        <li class="mb-1"><Strong>Categoria:</Strong> Estructuras y Montaje</li>
+                        <li class="fs-5 text-success fw-bold"><Strong>Precio:</Strong>620.00 lps</li>
                     </ul>
-                    <p><strong>Detalles Tecnicos</strong></p>
-                    <ul>
-                        <li><Strong>Tension Nominal:</Strong>N/A (Soporte)</li>
-                        <li><Strong>Capacidad Potencia:</Strong>Para soportes de 4 a 6 paneles</li>
-                        <li><Strong>Garantia:</Strong>paneles	5 a 10 años</li>
+                    <p class="mb-1"><strong>Detalles Tecnicos</strong></p>
+                    <ul class="list-unstyled small mb-0">
+                        <li class="mb-1"><Strong>Tension Nominal:</Strong>N/A (Soporte)</li>
+                        <li class="mb-1"><Strong>Capacidad Potencia:</Strong>Para soportes de 4 a 6 paneles</li>
+                        <li class="mb-1"><Strong>Garantia:</Strong>paneles	5 a 10 años</li>
                     </ul>
                 </article>
-                <article>
-                    <h3>Lámpara Solar Suburbana LED con Sensor</h3>
-                    <figure>
-                        <img src="Img/lampara suburbana solar.jpg", alt="Lámpara Solar Suburbana LED ", width="200px", height="200px">
+                <article class="card h-100 shadow-sm border-0 rounded-4 p-3">
+                    <h3 class="h5 fw-bold">Lámpara Solar Suburbana LED con Sensor</h3>
+                    <figure class="text-center">
+                        <img src="Img/lampara suburbana solar.jpg" alt="Lámpara Solar Suburbana LED" width="200px" height="200px" class="img-fluid rounded-3 mb-2" style="height:200px; object-fit:contain;">
                     </figure>
-                    <p>Compra nuestro Lámpara Solar</p>
-                    <ul>
-                        <li><Strong>Categoria:</Strong>Iluminación Solar</li>
-                        <li><Strong>Precio:</Strong>9,500lps</li>
+                    <p class="text-muted small">Compra nuestro Lámpara Solar</p>
+                    <ul class="list-unstyled small mb-2">
+                        <li class="mb-1"><Strong>Categoria:</Strong>Iluminación Solar</li>
+                        <li class="fs-5 text-success fw-bold"><Strong>Precio:</Strong>9,500lps</li>
                     </ul>
-                    <p><strong>Detalles Tecnicos</strong></p>
-                    <ul>
-                        <li><Strong>Tension Nominal:</Strong>41.5V</li>
-                        <li><Strong>Capacidad Potencia:</Strong>720W</li>
-                        <li><Strong>Garantia:12 Años</Strong></li>
+                    <p class="mb-1"><strong>Detalles Tecnicos</strong></p>
+                    <ul class="list-unstyled small mb-0">
+                        <li class="mb-1"><Strong>Tension Nominal:</Strong>41.5V</li>
+                        <li class="mb-1"><Strong>Capacidad Potencia:</Strong>720W</li>
+                        <li class="mb-1"><Strong>Garantia:</Strong>12 Años</li>
                     </ul>
                 </article>
-                <article>
-                    <h3>Batería de Gel para Alarma / UPS 7.2Ah</h3>
-                    <figure>
-                        <img src="Img/Batería de Gel para Alarma.jpeg", alt="Batería de Gel para Alarma", width="200px", height="200px">
+                <article class="card h-100 shadow-sm border-0 rounded-4 p-3">
+                    <h3 class="h5 fw-bold">Batería de Gel para Alarma / UPS 7.2Ah</h3>
+                    <figure class="text-center">
+                        <img src="Img/Batería de Gel para Alarma.jpeg" alt="Batería de Gel para Alarma" width="200px" height="200px" class="img-fluid rounded-3 mb-2" style="height:200px; object-fit:contain;">
                     </figure>
-                    <p>Compra nuestra Batería de Gel para Alarma</p>
-                    <ul>
-                        <li><Strong>Categoria:</Strong> Almacenamiento Energético</li>
-                        <li><Strong>Precio:</Strong>670.00lps</li>
+                    <p class="text-muted small">Compra nuestra Batería de Gel para Alarma</p>
+                    <ul class="list-unstyled small mb-2">
+                        <li class="mb-1"><Strong>Categoria:</Strong> Almacenamiento Energético</li>
+                        <li class="fs-5 text-success fw-bold"><Strong>Precio:</Strong>670.00lps</li>
                     </ul>
-                    <p><strong>Detalles Tecnicos</strong></p>
-                    <ul>
-                        <li><Strong>Tension Nominal:</Strong>12 V DC</li>
-                        <li><Strong>Capacidad Potencia:</Strong>7.2 Ah (~0.086 kWh)</li>
-                        <li><Strong>Garantia:</Strong>1 año</li>
+                    <p class="mb-1"><strong>Detalles Tecnicos</strong></p>
+                    <ul class="list-unstyled small mb-0">
+                        <li class="mb-1"><Strong>Tension Nominal:</Strong>12 V DC</li>
+                        <li class="mb-1"><Strong>Capacidad Potencia:</Strong>7.2 Ah (~0.086 kWh)</li>
+                        <li class="mb-1"><Strong>Garantia:</Strong>1 año</li>
                     </ul>
                 </article>
             </section>
-            <section>
-                <h2>Mira Nuestras Ofertas!!!</h2>
-                <article>
-                    <h3>Pad-Mounted Monofásico Prolec GE 25 kVA</h3>
-                    <figure>
-                        <img src="Img/prolec.jpeg", alt="Pad-Mounted Monofásico", width="200px", height="200px">
-                    </figure>
-                    <p>Compra nuestro Pad-Mounted Monofásico Prolec GE 25 kVA</p>
-                    <ul>
-                        <li><Strong>Categoria:</Strong>Residencial / Subterráneo</li>
-                        <li><Strong>Precio:</Strong>98,500.00lps</li>
-                        <li><Strong>Precio descontado:</Strong>84,710.00lps</li>
-                    </ul>
-                    <p><strong>Detalles Tecnicos</strong></p>
-                    <ul>
-                        <li><Strong>Tension Nominal:</Strong>13,800 V / 120-240 V</li>
-                        <li><Strong>Capacidad Potencia:</Strong>25 kVA / ~104 A (Sec.)</li>
-                        <li><Strong>Garantia:</Strong>2 años</li>
-                </article>
-                <article>
-                    <h3>Pad-Mounted Trifásico Loop Feed 150 kVA</h3>
-                    <figure>
-                        <img src="Img/trifasico.jpeg", alt="Pad-Mounted Trifásico Loop", width="200px", height="200px">
-                    </figure>
-                    <p>Compra nuestro Pad-Mounted Trifásico </p>
-                    <ul>
-                        <li><Strong>Categoria:</Strong>Comercial / Anillo</li>
-                        <li><Strong>Precio:</Strong>645,000.00 lps</li>
-                        <li><Strong>Precio descontado:</Strong>554,700.00 lps</li>
-                    </ul>
-                    <p><strong>Detalles Tecnicos</strong></p>
-                    <ul>
-                        <li><Strong>Tension Nominal:</Strong>13,800D V / 220Y/127 V</li>
-                        <li><Strong>Capacidad Potencia:</Strong>150 kVA / ~393 A (Sec.)</li>
-                        <li><Strong>Garantia:</Strong>3 años</li>
-                </article>
-                <article>
-                   <h3>Pad-Mounted Trifásico Industrial Prolec 500 kVA</h3>
-                    <figure>
-                        <img src="Img/trifasico industrial.jpeg", alt="Pad-Mounted Trifásico Industrial", width="200px", height="200px">
-                    </figure>
-                    <p>Compra nuestro Pad-Mounted Trifásico Industrial</p>
-                    <ul>
-                        <li><Strong>Categoria:</Strong> Industrial / Zoli</li>
-                        <li><Strong>Precio:</Strong>1,684,000.00 lps</li>
-                        <li><Strong>Precio descontado:</Strong>1,431,792.00lps</li>
-                    </ul>
-                    <p><strong>Detalles Tecnicos</strong></p>
-                    <ul>
-                        <li><Strong>Tension Nominal:</Strong>13,800D V / 220Y/127 V</li>
-                        <li><Strong>Capacidad Potencia:</Strong>500 kVA / ~1312 A (Sec.)</li>
-                        <li><Strong>Garantia:</Strong>3 años</li>
-                </article>
+
+            <section id="ofertas" class="pt-2">
+                <h2 class="text-center fw-bold mb-4">Mira Nuestras Ofertas!!!</h2>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4"></div>
+                    <article class="card h-100 shadow-sm border-0 rounded-4 p-3 position-relative">
+                        <span class="badge bg-danger position-absolute top-0 start-0 m-3 px-3 py-2">OFERTA</span>
+                        <h3 class="h5 fw-bold mt-4">Pad-Mounted Monofásico Prolec GE 25 kVA</h3>
+                        <figure class="text-center">
+                            <img src="Img/prolec.jpeg", alt="Pad-Mounted Monofásico", width="200px", height="200px" class="img-fluid rounded-3 mb-2" style="height:200px; object-fit:contain;">
+                        </figure>
+                        <p class="text-muted small">Compra nuestro Pad-Mounted Monofásico Prolec GE 25 kVA</p>
+                        <ul class="list-unstyled small mb-2">
+                            <li class="mb-1"><Strong>Categoria:</Strong>Residencial / Subterráneo</li>
+                            <li class="text-decoration-line-through text-muted"><Strong>Precio:</Strong>98,500.00lps</li>
+                            <li class="fs-4 text-danger fw-bold"><Strong>Precio descontado:</Strong>84,710.00lps</li>
+                        </ul>
+                        <p class="mb-1"><strong>Detalles Tecnicos</strong></p>
+                        <ul class="list-unstyled small mb-0">
+                            <li class="mb-1"><Strong>Tension Nominal:</Strong>13,800 V / 120-240 V</li>
+                            <li class="mb-1"><Strong>Capacidad Potencia:</Strong>25 kVA / ~104 A (Sec.)</li>
+                            <li class="mb-1"><Strong>Garantia:</Strong>2 años</li>
+                    </article>
+                    <article class="card h-100 shadow-sm border-0 rounded-4 p-3 position-relative">
+                        <span class="badge bg-danger position-absolute top-0 start-0 m-3 px-3 py-2">OFERTA</span>
+                        <h3 class="h5 fw-bold mt-4">Pad-Mounted Trifásico Loop Feed 150 kVA</h3>
+                        <figure class="text-center">
+                            <img src="Img/trifasico.jpeg", alt="Pad-Mounted Trifásico Loop", width="200px", height="200px",class="img-fluid rounded-3 mb-2" style="height:200px; object-fit:contain;">
+                        </figure>
+                        <p class="text-muted small">Compra nuestro Pad-Mounted Trifásico </p>
+                        <ul class="list-unstyled small mb-2">
+                            <li class="mb-1"><Strong>Categoria:</Strong>Comercial / Anillo</li>
+                            <li class="text-decoration-line-through text-muted"><Strong>Precio:</Strong>645,000.00 lps</li>
+                            <li class="fs-4 text-danger fw-bold"><Strong>Precio descontado:</Strong>554,700.00 lps</li>
+                        </ul>
+                        <p class="mb-1"><strong>Detalles Tecnicos</strong></p>
+                        <ul class="list-unstyled small mb-0">
+                            <li class="mb-1"><Strong>Tension Nominal:</Strong>13,800D V / 220Y/127 V</li>
+                            <li class="mb-1"><Strong>Capacidad Potencia:</Strong>150 kVA / ~393 A (Sec.)</li>
+                            <li class="mb-1"><Strong>Garantia:</Strong>3 años</li>
+                        </ul>
+                    </article>
+                    <article class="card h-100 shadow-sm border-0 rounded-4 p-3 position-relative" >
+                        <span class="badge bg-danger position-absolute top-0 start-0 m-3 px-3 py-2">OFERTA</span>
+                    <h3 class="h5 fw-bold mt-4">Pad-Mounted Trifásico Industrial Prolec 500 kVA</h3>
+                        <figure class="text-center">
+                            <img src="Img/trifasico industrial.jpeg", alt="Pad-Mounted Trifásico Industrial", width="200px", height="200px" class="img-fluid rounded-3 mb-2" style="height:200px; object-fit:contain;">
+                        </figure>
+                        <p class="text-muted small">Compra nuestro Pad-Mounted Trifásico Industrial</p>
+                        <ul class="list-unstyled small mb-2">
+                            <li class="mb-1"><Strong>Categoria:</Strong> Industrial / Zoli</li>
+                            <li class="text-decoration-line-through text-muted"><Strong>Precio:</Strong>1,684,000.00 lps</li>
+                            <li class="fs-4 text-danger fw-bold"><Strong>Precio descontado:</Strong>1,431,792.00lps</li>
+                        </ul>
+                        <p class="mb-1"><strong>Detalles Tecnicos</strong></p>
+                        <ul class="list-unstyled small mb-0">
+                            <li class="mb-1"><Strong>Tension Nominal:</Strong>13,800D V / 220Y/127 V</li>
+                            <li class="mb-1"><Strong>Capacidad Potencia:</Strong>500 kVA / ~1312 A (Sec.)</li>
+                            <li class="mb-1"><Strong>Garantia:</Strong>3 años</li>
+                        </ul>
+                    </article>
+                </div>
             </section>
         </main>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

@@ -4,28 +4,30 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title>Cotizaciones</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     </head>
     <body>
         <header><h1>Realiza tus cotizaciones</h1></header>
         <nav>
-            <ul>
-                <li><a href="Index.html">Inicio</a></li>
-                <li><a href="Catalogo.html">Catalogo</a></li>
-                <li><a href="Cotizaciones.html">Cotizaciones</a></li>
-                <li><a href="Contacto.html">Contacto</a></li>
+            <ul class="navbar-nav ms-auto align-items-lg-left">
+                <li class="nav-item"><a class="nav-link px-3" href="Index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link px-3" href="Catalogo.html">Catalogo</a></li>
+                <li class="nav-item"><a class="nav-link px-3" href="Cotizaciones.html">Cotizaciones</a></li>
+                <li class="nav-item"><a class="nav-link px-3" href="Contacto.html">Contacto</a></li>
             </ul>
         </nav>
-        <main>
-            <form method="POST", enctype="multipart/form-data">
-                <fieldset>
-                    <legend>Ingresa los datos de tu compra aqui</legend>
-                    <div>
-                        <label>Cantidad Unidades</label>
-                        <input type="number", id="number", name="number", placeholder="Ingrese la cantidad" min="0">
+        <main class="container py-4">
+            <form method="POST", enctype="multipart/form-data" class="card shadow-lg border-0 rounded-4 p-4 p-md-5 mx-auto bg-white" style="max-width: 720px;">
+                <fieldset class="border-0 p-0 m-0">
+                    <legend class="fs-5 fw-bold mb-4">Ingresa los datos de tu compra aqui</legend>
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Cantidad Unidades</label>
+                        <input type="number", id="number", name="number", placeholder="Ingrese la cantidad" min="0" class="form-control">
                     </div>
-                    <div>
-                        <label>Seleccione su producto</label>
-                        <select id="producto", name="producto" required>
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Seleccione su producto</label>
+                        <select id="producto", name="producto" required class="form-select">
                             <option value="Producto1">Pad-Mounted Monofásico 25 kVA (13.8 kV)-85,000.00lps</option>
                             <option value="Producto2">Panel Solar Monocristalino Nenotech 720W-5,695.00lps</option>
                             <option value="Producto3">Panel Solar Monocristalino Nenotech 350W-2990lps</option>
@@ -43,9 +45,9 @@
                             <option value="Producto15">Batería de Gel para Alarma / UPS 7.2Ah-670.00lps</option>
                         </select>
                     </div>
-                    <div>
-                        <label>Seleccione su ciudad</label>
-                        <select id="ciudad", name="ciudad" required>
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Seleccione su ciudad</label>
+                        <select id="ciudad", name="ciudad" required class="form-select">
                             <option value="Ciudad 1">Tegucigalpa-1000lps</option>
                             <option value="Ciudad 2">San pedro sula-2000lps</option>
                             <option value="Ciudad 3">Comayagua-1500lps</option>
@@ -56,22 +58,23 @@
                 </fieldset>
             </form>
             <br>
-            <section>
-                <button type="button">Calcular Presupuesto</button>
+            <section class="text-center my-4">
+                <button type="button" class="btn btn-primary btn-lg rounded-pill px-5 fw-bold shadow-sm">Calcular Presupuesto</button>
             </section>
-            <section>
-                <fieldset>
-                    <h2>El resultado de la cotizacion es: 5000Lps</h2>
-                </fieldset>
+            <section class="mb-4">
+                <div class="card bg-dark text-white text-center shadow-sm border-0 rounded-4 p-4 mx-auto" style="max-width: 720px;">
+                    <h2 class="fs-4 font-monospace mb-0">El resultado de la cotizacion de envio es: 5000Lps</h2>
+                </div>
             </section>
             <br>
-            <section>
-                <fieldset>
-                    <h3>Regla Comercial de la Empresa</h3>
-                    <p>Descuento Comercial del 8% automatico en ordenes de 5 o mas unidades</p>
-                </fieldset>
+            <section class="mx-auto" style="max-width: 720px;">
+                <div class="alert alert-info border-0 rounded-4 shadow-sm">
+                    <h3 class="alert-heading fs-5 fw-bold">Regla Comercial de la Empresa</h3>
+                    <p class="mb-0">Descuento Comercial del 8% automatico en ordenes de 5 o mas unidades</p>
+                </div>
                 
             </section>
         </main>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
